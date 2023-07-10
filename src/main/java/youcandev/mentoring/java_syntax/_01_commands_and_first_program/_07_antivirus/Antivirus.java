@@ -5,7 +5,7 @@ package youcandev.mentoring.java_syntax._01_commands_and_first_program._07_antiv
 */
 
 
-public class Task {
+public class Antivirus {
 
     public static void main(String[] args) {
         String integrate = "Integrujemy ";

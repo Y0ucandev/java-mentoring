@@ -4,7 +4,7 @@ package youcandev.mentoring.java_syntax._01_commands_and_first_program._09_two_p
     2 + 3 = 5
  */
 
-public class Task {
+public class TwoPlusThree {
 
     public static void main(String[] args) {
         int a = 3;

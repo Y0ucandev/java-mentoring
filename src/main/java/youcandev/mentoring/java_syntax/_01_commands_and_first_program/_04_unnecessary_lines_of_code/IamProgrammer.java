@@ -4,7 +4,7 @@ package youcandev.mentoring.java_syntax._01_commands_and_first_program._04_unnec
     Niepotrzebne linie kodu
  */
 
-public class Task {
+public class IamProgrammer {
 
     public static void main(String[] args) {
         String job = "programistą";
