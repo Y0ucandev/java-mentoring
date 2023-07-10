@@ -4,11 +4,10 @@ package youcandev.mentoring.java_syntax._01_commands_and_first_program._01_comma
     First Program
  */
 
-public class Task {
+public class FirstProgram {
 
     public static void main(String[] args) {
-        //napisz tutaj swój kod
-
+        System.out.println("My first program works!");
     }
 
 }
