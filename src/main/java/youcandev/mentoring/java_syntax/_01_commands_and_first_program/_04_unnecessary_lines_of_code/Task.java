@@ -1,4 +1,4 @@
-package youcandev.mentoring.java_syntax._01_commands_and_first_program._01_commands_and_first_program._04_unnecessary_lines_of_code;
+package youcandev.mentoring.java_syntax._01_commands_and_first_program._04_unnecessary_lines_of_code;
 
 /*
     Niepotrzebne linie kodu

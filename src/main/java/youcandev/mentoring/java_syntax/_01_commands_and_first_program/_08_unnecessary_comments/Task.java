@@ -1,4 +1,4 @@
-package youcandev.mentoring.java_syntax._01_commands_and_first_program._01_commands_and_first_program._08_unnecessary_comments;
+package youcandev.mentoring.java_syntax._01_commands_and_first_program._08_unnecessary_comments;
 
 /*
     Komentarze są zbędne

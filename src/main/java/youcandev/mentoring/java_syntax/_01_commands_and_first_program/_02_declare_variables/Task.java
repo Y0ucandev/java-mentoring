@@ -1,4 +1,4 @@
-package youcandev.mentoring.java_syntax._01_commands_and_first_program._01_commands_and_first_program._02_declare_variables;
+package youcandev.mentoring.java_syntax._01_commands_and_first_program._02_declare_variables;
 
 /*
     Deklarujemy zmienne

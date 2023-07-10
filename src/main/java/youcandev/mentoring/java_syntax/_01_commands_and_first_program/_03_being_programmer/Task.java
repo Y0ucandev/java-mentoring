@@ -1,4 +1,4 @@
-package youcandev.mentoring.java_syntax._01_commands_and_first_program._01_commands_and_first_program._03_being_programmer;
+package youcandev.mentoring.java_syntax._01_commands_and_first_program._03_being_programmer;
 
 /*
     Być programistą

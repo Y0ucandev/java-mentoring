@@ -1,4 +1,4 @@
-package youcandev.mentoring.java_syntax._01_commands_and_first_program._01_commands_and_first_program._05_i_am_from_the_ad;
+package youcandev.mentoring.java_syntax._01_commands_and_first_program._05_i_am_from_the_ad;
 /*
     Jestem z ogłoszenia
  */

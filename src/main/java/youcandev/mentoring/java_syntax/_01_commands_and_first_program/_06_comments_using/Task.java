@@ -1,4 +1,4 @@
-package youcandev.mentoring.java_syntax._01_commands_and_first_program._01_commands_and_first_program._06_comments_using;
+package youcandev.mentoring.java_syntax._01_commands_and_first_program._06_comments_using;
 
 /*
  Naprawić system zbierania w galaktyce

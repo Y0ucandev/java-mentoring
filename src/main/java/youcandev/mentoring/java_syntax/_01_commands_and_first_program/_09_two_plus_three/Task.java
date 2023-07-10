@@ -1,4 +1,4 @@
-package youcandev.mentoring.java_syntax._01_commands_and_first_program._01_commands_and_first_program._09_two_plus_three;
+package youcandev.mentoring.java_syntax._01_commands_and_first_program._09_two_plus_three;
 
 /*
     2 + 3 = 5

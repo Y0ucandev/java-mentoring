@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "First Program Unit Test",
+      "setup": "",
+      "run": "mvn test -Dtest=shouldReturnDesiredTextFromSystemOutPrintln",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
