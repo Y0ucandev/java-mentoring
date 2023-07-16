@@ -22,7 +22,8 @@ class FirstProgramTest {
         String expectedText = "My first program works!";
 
         //then
-        assertEquals(expectedText, printedText);
+        assertEquals(expectedText, printedText, "Text printed on the console should be exact -> My first program works! and " +
+                "your main function printed this : " + printedText);
     }
 
     @Test
@@ -37,7 +38,8 @@ class FirstProgramTest {
         String expectedText = "My";
 
         //then
-        assertTrue(printedText.startsWith(expectedText));
+        assertTrue(printedText.startsWith(expectedText), "Text printed on the console should start with My phrase" +
+                " and string printed on the console produced by your function is " + printedText);
 
     }
 
@@ -53,7 +55,8 @@ class FirstProgramTest {
         String expectedText = "works!";
 
         //then
-        assertTrue(printedText.endsWith(expectedText));
+        assertTrue(printedText.endsWith(expectedText), "Text printed on the console should end with works! phrase" +
+                " and string printed on the console produced by your function is " + printedText);
     }
 
     @Test
@@ -68,6 +71,7 @@ class FirstProgramTest {
         int expectedLength = 23;
 
         //then
-        assertEquals(printedText.length(), expectedLength);
+        assertEquals(printedText.length(), expectedLength, "Text printed on the console should be exact 23 length "
+        + printedText.length());
     }
 }
