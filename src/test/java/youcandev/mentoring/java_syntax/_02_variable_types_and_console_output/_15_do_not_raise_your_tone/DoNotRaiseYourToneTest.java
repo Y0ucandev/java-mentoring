@@ -19,6 +19,7 @@ class DoNotRaiseYourToneTest {
         String expectedOutput  = "USA" + System.lineSeparator();
         expectedOutput += "YOU CAN DEV" + System.lineSeparator();
         expectedOutput += "IF I TYPE IN CAPS THEY KNOW I MEAN BUSINESS" + System.lineSeparator();
+        
 
         assertThat(outContent.toString()).isEqualTo(expectedOutput);
     }
