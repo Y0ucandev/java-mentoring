@@ -8,8 +8,8 @@ public class StringLengthObtaining {
         String emptyString = "";
 
         //napisz tutaj swój kod
-        System.out.println(emptyString);
-        System.out.println("Hello, world!");
-        System.out.println((emptyString + 2 + 2 + "22"));
+        System.out.println(emptyString.length());
+        System.out.println("Hello, world!".length());
+        System.out.println((emptyString + 2 + 2 + "22").length());
     }
 }

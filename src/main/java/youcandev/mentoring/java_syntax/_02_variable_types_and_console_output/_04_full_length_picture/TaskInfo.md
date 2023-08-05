@@ -4,6 +4,7 @@ Do obliczeń użyj zmiennej **centimeters** i operatora dzielenia.
 Do deklaracji i inicjalizacji **meters** użyj jednego polecenia.
 
 Wymagania:
+
 - Nie zmieniaj wartości zmiennej centimeters.
 - Do obliczenia meters powinny być używane centimeters i operator dzielenia.
 - Program powinien wyświetlać na ekranie wartość zmiennej meters.

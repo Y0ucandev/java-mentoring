@@ -1,6 +1,7 @@
 package youcandev.mentoring.java_syntax._02_variable_types_and_console_output._16_acceleration_challenge;
+
 /*
-Wyzwanie Rozpędzania do 100500%
+Wyzwanie Rozpędzania się do 100500%
  */
 public class AccelerationChallenge {
     public static void main(String[] args) {
@@ -9,7 +10,7 @@ public class AccelerationChallenge {
         int numberThree = 1;
         String string = "00";
 
-        String result = "";//napisz tutaj swój kod
-        System.out.println("Rozpędzamy do " + result + "%");
+        String result = numberTwo + string + (numberOne + numberTwo + numberThree) + string;//napisz tutaj swój kod
+        System.out.println("Rozpędzamy się do " + result + "%");
     }
 }

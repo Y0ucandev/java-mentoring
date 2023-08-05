@@ -6,7 +6,7 @@ Wprowadź z klawiatury trzy ciągi znaków. Następnie:
 
 Przykładowe dane wejściowe:
 
->Ciąg Numer JEDEN
+> Ciąg Numer JEDEN
 >
 >Drugi ciąg
 >
@@ -14,15 +14,16 @@ Przykładowe dane wejściowe:
 
 Przykładowe dane wyjściowe:
 
->Ciąg 3
-> 
+> Ciąg 3
+>
 >DRUGI CIĄG
-> 
+>
 >ciąg numer jeden
 
 Wymagania:
+
 - Program powinien odczytywać z klawiatury trzy ciągi znaków.
 - Trzeci wprowadzony ciąg powinien zostać wyświetlony bez zmian.
-- Drugi wprowadzony ciąg powinien zostać wyświetlony na wielkie litery.
-- Pierwszy wprowadzony ciąg powinien zostać wyświetlony na małe litery.
+- Drugi wprowadzony ciąg powinien zostać wyświetlony wielkimi literami.
+- Pierwszy wprowadzony ciąg powinien zostać wyświetlony małymi literami.
 - Wszystkie trzy ciągi znaków powinny zostać wyświetlone w odpowiedniej kolejności: trzeci, drugi, pierwszy.

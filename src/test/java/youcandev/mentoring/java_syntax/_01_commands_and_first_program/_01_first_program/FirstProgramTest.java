@@ -1,5 +1,8 @@
 package youcandev.mentoring.java_syntax._01_commands_and_first_program._01_first_program;
 
+
+
+
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;
@@ -7,6 +10,7 @@ import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+
 
 class FirstProgramTest {
 
@@ -39,7 +43,7 @@ class FirstProgramTest {
 
         //then
         assertTrue(printedText.startsWith(expectedText), "Text printed on the console should start with My phrase" +
-                " and string printed on the console produced by your function is " + printedText);
+                                " and string printed on the console produced by your function is " + printedText);
 
     }
 
@@ -56,7 +60,7 @@ class FirstProgramTest {
 
         //then
         assertTrue(printedText.endsWith(expectedText), "Text printed on the console should end with works! phrase" +
-                " and string printed on the console produced by your function is " + printedText);
+                                " and string printed on the console produced by your function is " + printedText);
     }
 
     @Test
@@ -71,7 +75,7 @@ class FirstProgramTest {
         int expectedLength = 23;
 
         //then
-        assertEquals(printedText.length(), expectedLength, "Text printed on the console should be exact 23 length "
+        assertEquals(printedText.length(), expectedLength, "Text printed on the console should be exact 23 length"
         + printedText.length());
     }
 }

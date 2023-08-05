@@ -11,10 +11,16 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 class IAmFromTheAdTest {
     @Test
-    public void variablesAreDeclaredAndHaveDifferentValues() throws Exception {
+    void variablesAreDeclaredAndHaveDifferentValues() throws Exception {
         String content = new String(Files.readAllBytes(Paths.get("src/main/java/youcandev/mentoring/java_syntax/_02_variable_types_and_console_output/_02_i_am_from_the_ad/IAmFromTheAd.java")));
 
-        Pattern variablePattern = Pattern.compile("int\\s+intValue\\s*=\\s*(\\d+)\\s*,\\s*numericValue\\s*=\\s*(\\d+)\\s*,\\s*size\\s*=\\s*(\\d+)\\s*,\\s*number\\s*=\\s*(\\d+)\\s*;");
+        Pattern variablePattern = Pattern.compile(
+                "int\\s+intValue\\s*=\\s*(\\d+);.*?" +    // For non-greedy matching
+                        "int\\s+numericValue\\s*=\\s*(\\d+);.*?" +
+                        "int\\s+size\\s*=\\s*(\\d+);.*?" +
+                        "int\\s+number\\s*=\\s*(\\d+);",
+                Pattern.DOTALL);    // For multiline matching
+
         Matcher variableMatcher = variablePattern.matcher(content);
         assertThat(variableMatcher.find()).isTrue();
 
@@ -30,5 +36,4 @@ class IAmFromTheAdTest {
         assertThat(numericValue).isNotEqualTo(number);
         assertThat(size).isNotEqualTo(number);
     }
-
 }

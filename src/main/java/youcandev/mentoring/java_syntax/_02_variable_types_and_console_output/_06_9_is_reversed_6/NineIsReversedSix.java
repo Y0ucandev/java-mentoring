@@ -10,7 +10,9 @@ public class NineIsReversedSix {
         int six = 6;
 
         //napisz tutaj swój kod
-
+        six++;
+        six++;
+        six++;
 
         System.out.println(six);
     }

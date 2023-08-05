@@ -17,7 +17,8 @@ class AntivirusTest {
         //when
         Antivirus.main(new String[]{});
         String printedText = outputStream.toString().trim();
-        String expectedText = "Integrujemy narzędzia antywirusowe - PoliRush Monitor, PoliRush Guard, PoliRush Security do systemu, skanujemy sieć, usuwamy wirusy i błędy.";
+        String expectedText = "Integrujemy narzędzia antywirusowe - PoliRush Monitor, PoliRush Guard, " +
+                "PoliRush Security do systemu, skanujemy sieć, usuwamy wirusy i błędy.";
         //then
         assertEquals(printedText, expectedText);
     }

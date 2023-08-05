@@ -10,7 +10,15 @@ public class ThirtyTwoTeeth {
         int toothCounter = 32;
 
         //napisz tutaj swój kod
-
+        toothCounter--;
+        toothCounter--;
+        toothCounter--;
+        toothCounter--;
+        toothCounter--;
+        toothCounter--;
+        toothCounter--;
+        toothCounter--;
+        toothCounter--;
 
         System.out.println(toothCounter);
 

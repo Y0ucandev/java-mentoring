@@ -10,7 +10,7 @@ public class StockMarketCrash {
         int stockQuote = 0;
         stockQuote = stockQuote - 25 - 25;
         stockQuote = stockQuote + 20;
-        stockQuote = stockQuote - 300;
+//        stockQuote = stockQuote - 300;
         stockQuote = stockQuote + 250;
         stockQuote = stockQuote + 30;
         System.out.println("Quotes went up - " + stockQuote);

@@ -1,4 +1,5 @@
 package youcandev.mentoring.java_syntax._02_variable_types_and_console_output._14_preparing_our_cv;
+
 /*
 Uporządkujmy CV
  */
@@ -9,9 +10,9 @@ public class PreparingOurCV {
         String career = "Experienced Team Leader with strong Organizational Skills and a Successful career in Management.";
 
         //napisz tutaj swój kod
-        System.out.println("RESUME");
-        System.out.println("TITLE: " + title);
-        System.out.println("DEGREE: " + degree);
-        System.out.println("CAREER: " + career);
+        System.out.println("RESUME".toLowerCase());
+        System.out.println(("TITLE: " + title).toLowerCase());
+        System.out.println(("DEGREE: " + degree).toLowerCase());
+        System.out.println(("CAREER: " + career).toLowerCase());
     }
 }

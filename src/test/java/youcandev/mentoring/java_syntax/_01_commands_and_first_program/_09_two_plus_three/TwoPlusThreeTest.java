@@ -16,7 +16,7 @@ class TwoPlusThreeTest {
         System.setOut(new PrintStream(outputStream));
 
         //when
-        IamProgrammer.main(new String[]{});
+        TwoPlusThree.main(new String[]{});
         String printedText = outputStream.toString().trim();
         String expectedText = "2 plus 3 równa się 5";
 

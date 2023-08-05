@@ -8,11 +8,11 @@ public class CommentsUsing {
 
     public static void main(String[] args) {
         System.out.println("Zbieranie w galaktyce rozpoczęło się");
-        System.out.println("zbieramy ludzi");
-        System.out.println("zbieramy zwierzęta");
+//        System.out.println("zbieramy ludzi");
+//        System.out.println("zbieramy zwierzęta");
         System.out.println("zbieramy kamienie");
         System.out.println("zbieramy meteoryty");
-        System.out.println("zbieramy rośliny");
+//        System.out.println("zbieramy rośliny");
         System.out.println("Zbieranie w galaktyce zakończyło się");
     }
 }

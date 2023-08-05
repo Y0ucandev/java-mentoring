@@ -10,7 +10,7 @@ public class ConcatenationOfStringsAndNumbers {
         int y = 4;
         int z = 0;
 
-        String digits = ""; //napisz tutaj swój kod
+        String digits = x + y + String.valueOf(z); //napisz tutaj swój kod
 
         System.out.println(digits);
     }

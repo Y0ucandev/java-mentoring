@@ -10,13 +10,13 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 class AccelerationChallengeTest {
     @Test
-    public void checkConcat() {
+    void checkConcat() {
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
 
         AccelerationChallenge.main(new String[]{});
 
-        String expectedOutput  = "Rozpędzamy do 100500%" + System.lineSeparator();
+        String expectedOutput  = "Rozpędzamy się do 100500%" + System.lineSeparator();
 
         assertThat(outContent.toString()).isEqualTo(expectedOutput);
     }

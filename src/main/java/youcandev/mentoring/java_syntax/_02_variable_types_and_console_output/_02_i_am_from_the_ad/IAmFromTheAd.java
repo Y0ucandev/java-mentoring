@@ -7,7 +7,10 @@ Jestem z ogłoszenia
 
 public class IAmFromTheAd {
     public static void main(String[] args) {
-        //napisz swój kod tutaj
+        int intValue = 1;
+        int numericValue = 20;
+        int size = 123456;
+        int number = 123455;
 
     }
 }

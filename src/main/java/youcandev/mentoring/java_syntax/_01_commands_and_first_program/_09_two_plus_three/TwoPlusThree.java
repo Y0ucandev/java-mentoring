@@ -10,15 +10,15 @@ public class TwoPlusThree {
         int a = 3;
         int b = 2;
 
-        System.out.print("dwa");
+        // System.out.print("dwa");
         System.out.print(b);
         System.out.print(" plus ");
-        System.out.print(" minus ");
+        // System.out.print(" minus ");
         System.out.print(a);
-        System.out.print("trzy");
+        //  System.out.print("trzy");
         System.out.print(" równa się ");
-        System.out.print(" będzie ");
-        System.out.print("pięć");
+        //  System.out.print(" będzie ");
+        // System.out.print("pięć");
         System.out.print(a + b);
     }
 }

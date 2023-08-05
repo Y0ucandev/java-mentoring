@@ -13,20 +13,20 @@ public class IamProgrammer {
         String username = "Jan";
         String space = " ";
 
-        System.out.println(username);
-        System.out.println("!");
-        System.out.println("Jest");
+//        System.out.println(username);
+//        System.out.println("!");
+//        System.out.println("Jest");
         System.out.print("Je");
         System.out.print("stem ");
-        System.out.println(job);
+//        System.out.println(job);
         System.out.print(job);
         System.out.println("!");
         System.out.print("Pi");
-        System.out.println("Piszę");
+//        System.out.println("Piszę");
         System.out.print("szę");
         System.out.print(space);
         System.out.print(code);
-        System.out.println("w ");
+//        System.out.println("w ");
         System.out.print(space);
         System.out.print("w" + space + language);
         System.out.println("!");

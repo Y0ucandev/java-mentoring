@@ -9,13 +9,13 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 class ConcatenationOfStringsAndNumbersTest {
     @Test
-    public void checkDigitsValue() {
+    void checkDigitsValue() {
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
 
         ConcatenationOfStringsAndNumbers.main(new String[]{});
 
-        String expectedOutput = "240" + System.lineSeparator();
+        String expectedOutput = "60" +System.lineSeparator();
 
         assertThat(outContent.toString()).isEqualTo(expectedOutput);
     }

@@ -7,7 +7,7 @@ public class EmptinessAndSpaces {
     public static void main(String[] args) {
         String emptiness = "pustka";
 
-        String fullness = ""; //napisz tutaj swój kod
+        String fullness = emptiness + " " + emptiness + " " + emptiness; //napisz tutaj swój kod
 
         System.out.println(fullness);
     }

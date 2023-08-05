@@ -8,7 +8,7 @@ public class LastDigitOfTheNumber {
     public static void main(String[] args) {
         int number = 546;
 
-        int lastDigit = 0; //napisz tutaj swój kod
+        int lastDigit = number % 10; //napisz tutaj swój kod
 
         System.out.println(lastDigit);
     }

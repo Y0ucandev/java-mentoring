@@ -7,5 +7,7 @@ public class IAmFromTheAd {
 
     public static void main(String[] args) {
         //napisz tutaj swój kod
+        int a = 5;
+        int b = 10;
     }
 }

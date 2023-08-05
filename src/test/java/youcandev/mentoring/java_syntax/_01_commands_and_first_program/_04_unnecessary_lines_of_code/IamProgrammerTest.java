@@ -17,7 +17,7 @@ class IamProgrammerTest {
         //when
         IamProgrammer.main(new String[]{});
         String printedText = outputStream.toString().trim();
-        String expectedText = "Jestem programistą\r\nPiszę kod w Javie!";
+        String expectedText = "Jestem programistą!\r\nPiszę kod w Javie!";
 
         //then
         assertEquals(expectedText, printedText);
@@ -32,7 +32,7 @@ class IamProgrammerTest {
         //when
         IamProgrammer.main(new String[]{});
         String printedText = outputStream.toString().trim();
-        String expectedText = "Jestem programistą";
+        String expectedText = "Jestem programistą!";
 
         //then
         assertTrue(printedText.startsWith(expectedText));

@@ -9,7 +9,7 @@ public class LogoSolvesEverything {
         String s2 = "It";
         String s3 = "Just";
 
-        String tagline = ""; //napisz tutaj swój kod
+        String tagline = s3 + s1 + s2; //napisz tutaj swój kod
 
         System.out.println(tagline);
     }
